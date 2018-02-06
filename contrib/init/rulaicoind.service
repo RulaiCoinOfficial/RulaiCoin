@@ -1,0 +1,22 @@
+[Unit]
+Description=Rulaicoin distributed currency daemon
+After=network.target
+
+[Service]
+User=rulaicoincore
+Group=rulaicoincore
+
+Type=forking
+PIDFile=/var/lib/rulaicoind/rulaicoind.pid
+ExecStart=/usr/bin/rulaicoind -daemon -pid=/var/lib/rulaicoind/rulaicoind.pid \
+-conf=/etc/rulaicoincore/rulaicoin.conf -datadir=/var/lib/rulaicoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

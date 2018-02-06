@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/rulaicoin_bg.qm</file>
+        <file alias="de">locale/rulaicoin_de.qm</file>
+        <file alias="en">locale/rulaicoin_en.qm</file>
+        <file alias="es">locale/rulaicoin_es.qm</file>
+        <file alias="fi">locale/rulaicoin_fi.qm</file>
+        <file alias="fr">locale/rulaicoin_fr.qm</file>
+        <file alias="it">locale/rulaicoin_it.qm</file>
+        <file alias="ja">locale/rulaicoin_ja.qm</file>
+        <file alias="pl">locale/rulaicoin_pl.qm</file>
+        <file alias="pt">locale/rulaicoin_pt.qm</file>
+        <file alias="ru">locale/rulaicoin_ru.qm</file>
+        <file alias="sk">locale/rulaicoin_sk.qm</file>
+        <file alias="sv">locale/rulaicoin_sv.qm</file>
+        <file alias="vi">locale/rulaicoin_vi.qm</file>
+        <file alias="zh_CN">locale/rulaicoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/rulaicoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

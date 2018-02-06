@@ -1,0 +1,6 @@
+usr/local/bin/rulaicoin-qt usr/bin
+share/pixmaps/rulaicoin32.xpm usr/share/pixmaps
+share/pixmaps/rulaicoin16.xpm usr/share/pixmaps
+share/pixmaps/rulaicoin128.png usr/share/pixmaps
+debian/rulaicoin-qt.desktop usr/share/applications
+debian/rulaicoin-qt.protocol usr/share/kde4/services/

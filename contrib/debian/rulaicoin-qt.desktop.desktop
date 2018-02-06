@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Rulaicoin
+Comment=Rulaicoin P2P Cryptocurrency
+Exec=rulaicoin-qt %u
+Terminal=false
+Type=Application
+Icon=rulaicoin128
+MimeType=x-scheme-handler/rulaicoin;
+Categories=Office;Finance;
+Name[en_US]=rulaicoin-qt.desktop

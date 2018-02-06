@@ -1,0 +1,16 @@
+Building Rulaicoin Core
+
+Use the autogen script to prepare the build environment.
+
+    chmod +x autogen.sh
+    ./autogen.sh
+    ./configure
+    chmod +x share/genbuild.sh
+    make
+
+Precompiled binaries are available at github, see
+https://github.com/rulaicoincore
+
+See doc/build-*.md for instructions on building rulaicoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Rulaicoin.
